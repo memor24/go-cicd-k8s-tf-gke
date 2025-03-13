@@ -1,0 +1,47 @@
+# Ignore Dockerfile
+Dockerfile
+
+# Ignore .git directory
+.git
+
+# Ignore node_modules (for Node.js projects)
+node_modules
+
+# Ignore Python virtual environments
+venv/
+.venv/
+
+# Ignore build artifacts
+build/
+dist/
+target/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore IDE configuration files
+.idea/
+.vscode/
+
+# Ignore specific files
+config.json
+secrets.txt
+
+# Ignore specific directories
+data/
+cache/
+
+# Ignore files with specific extensions
+*.pyc
+*.o
+
+# Ignore specific files within a directory
+/app/config/development.ini
+
+# Ignore all files within a directory except one
+/app/*
+!/app/important.file
